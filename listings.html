@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title  -->
+    <title>Carefuge | Listings</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" href="img/core-img/logo.png">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="south-load"></div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+
+        <!-- Main Header Area -->
+        <div class="main-header-area" id="stickyHeader">
+            <div class="classy-nav-container breakpoint-off">
+                <!-- Classy Menu -->
+                <nav class="classy-navbar justify-content-between" id="southNav">
+
+                    <!-- Logo -->
+                    <a class="nav-brand" href="index.html"><img src="img/core-img/logo.png" alt=""></a>
+
+                    <!-- Navbar Toggler -->
+                    <div class="classy-navbar-toggler">
+                        <span class="navbarToggler"><span></span><span></span><span></span></span>
+                    </div>
+
+                    <!-- Menu -->
+                    <div class="classy-menu">
+
+                        <!-- close btn -->
+                        <div class="classycloseIcon">
+                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                        </div>
+
+                        <!-- Nav Start -->
+                        <div class="classynav">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about-us.html">About Us</a></li>
+                                <li><a href="listings.html">Find A Shelter</a></li>
+                                <li><a href="blog.html">LandLords</a></li>
+                                <li><a href="referals.html">Referrals</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+
+                            <!-- Search Form -->
+                            <div class="south-search-form">
+                                <form action="#" method="post">
+                                    <input type="search" name="search" id="search" placeholder="Search Anything ...">
+                                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                </form>
+                            </div>
+
+                            <!-- Search Button -->
+                            <a href="#" class="searchbtn"><i class="fa" aria-hidden="true"></i></a>
+                        </div>
+                        <!-- Nav End -->
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Breadcumb Area Start ##### -->
+    <section class="breadcumb-area bg-img" style="background-image: url(img/bg-img/banner2.jpg);">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcumb-content">
+                        <h3 class="breadcumb-title">Accommodations</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Breadcumb Area End ##### -->
+
+    <!-- ##### Advance Search Area Start ##### -->
+    <div class="south-search-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="advanced-search-form">
+                        <!-- Search Title -->
+                        <div class="search-title">
+                            <p>Search for Shelter</p>
+                        </div>
+                        <!-- Search Form -->
+                        <form action="#" method="post" id="advanceSearch">
+                            <div class="row">
+
+                                <div class="col-12 col-md-4 col-lg-3">
+                                    <div class="form-group">
+                                        <input type="input" class="form-control" name="input" placeholder="Keyword">
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-4 col-lg-3">
+                                    <div class="form-group">
+                                        <select class="form-control" id="cities">
+                                            Search Form <option>Birmingham</option>
+                                           <!--  <option>Riga</option>
+                                            <option>Melbourne</option>
+                                            <option>Vienna</option>
+                                            <option>Vancouver</option>
+                                            <option>Toronto</option>
+                                            <option>Calgary</option>
+                                            <option>Adelaide</option>
+                                            <option>Perth</option>
+                                            <option>Auckland</option>
+                                            <option>Helsinki</option>-->
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-4 col-lg-3">
+                                    <div class="form-group">
+                                        <select class="form-control" id="catagories">
+                                            <option>All Catagories</option>
+                                            <option>Flats</option>
+                                            <option>Ensuites</option>
+                                            <option>House</option>
+                                            <option>Shared Accommodation</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-4 col-lg-3">
+                                    <div class="form-group">
+                                        <select class="form-control" id="offers">
+                                            <option>All Offers</option>
+                                           
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-4 col-xl-3">
+                                    <div class="form-group">
+                                        <select class="form-control" id="listings">
+                                            <option>All Listings</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-4 col-xl-2">
+                                    <div class="form-group">
+                                        <select class="form-control" id="bedrooms">
+                                            <option>Bedrooms</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-4 col-xl-2">
+                                    <div class="form-group">
+                                        <select class="form-control" id="bathrooms">
+                                            <option>Bathrooms</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-8 col-lg-12 col-xl-5 d-flex">
+                                    <!-- Space Range -->
+                                    <div class="slider-range">
+                                        <div data-min="120" data-max="820" data-unit=" sq. ft" class="slider-range-price ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" data-value-min="120" data-value-max="820">
+                                            <div class="ui-slider-range ui-widget-header ui-corner-all"></div>
+                                            <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0"></span>
+                                            <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0"></span>
+                                        </div>
+                                        <div class="range">120 sq. ft - 820 sq. ft</div>
+                                    </div>
+
+                                    <!-- Distance Range -->
+                                    <div class="slider-range">
+                                        <div data-min="10" data-max="1300" data-unit=" mil" class="slider-range-price ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" data-value-min="10" data-value-max="1300">
+                                            <div class="ui-slider-range ui-widget-header ui-corner-all"></div>
+                                            <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0"></span>
+                                            <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0"></span>
+                                        </div>
+                                        <div class="range">10 mil - 1300 mil</div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 search-form-second-steps">
+                                    <div class="row">
+
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <div class="form-group">
+                                                <select class="form-control" id="types">
+                                                    <option>All Types</option>
+                                                    <option>Apartment <span>(30)</span></option>
+                                                    <option>Land <span>(69)</span></option>
+                                                    <option>Villas <span>(103)</span></option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <div class="form-group">
+                                                <select class="form-control" id="catagories2">
+                                                    <option>All Catagories</option>
+                                                    <option>Apartment</option>
+                                                    <option>Bar</option>
+                                                    <option>Farm</option>
+                                                    <option>House</option>
+                                                    <option>Store</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <div class="form-group">
+                                                <select class="form-control" id="Actions">
+                                                    <option>All Actions</option>
+                                                    <option>Sales</option>
+                                                    <option>Booking</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <div class="form-group">
+                                                <select class="form-control" id="city2">
+                                                    <option>All City</option>
+                                                    <option>City 1</option>
+                                                    <option>City 2</option>
+                                                    <option>City 3</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-md-4">
+                                            <div class="form-group">
+                                                <select class="form-control" id="Actions3">
+                                                    <option>All Actions</option>
+                                                    <option>Sales</option>
+                                                    <option>Booking</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-md-4">
+                                            <div class="form-group">
+                                                <select class="form-control" id="city3">
+                                                    <option>All City</option>
+                                                    <option>City 1</option>
+                                                    <option>City 2</option>
+                                                    <option>City 3</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-md-4">
+                                            <div class="form-group">
+                                                <select class="form-control" id="city5">
+                                                    <option>All City</option>
+                                                    <option>City 1</option>
+                                                    <option>City 2</option>
+                                                    <option>City 3</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Advance Search Area End ##### -->
+
+    <!-- ##### Listing Content Wrapper Area Start ##### -->
+    <section class="listings-content-wrapper section-padding-100">
+        <div class="container">
+
+            <div class="row">
+                <!-- Single Featured Property -->
+                <div class="col-12 col-md-6 col-xl-4">
+                  <div
+                    class="single-featured-property mb-50 wow fadeInUp"
+                    data-wow-delay="100ms"
+                  >
+                    <!-- Property Thumbnail -->
+                    <div class="property-thumb">
+                      <img src="img/bg-img/feature1.jpg" alt="" />
+      
+                      <div class="list-price">
+                        <p>Available</p>
+                      </div>
+                    </div>
+                    <!-- Property Content -->
+                    <div class="property-content">
+                      <h5>Flats</h5>
+                      <p class="location">
+                        <i
+                          class="bi bi-geo-alt"
+                          style="color: #f28526; font-size: medium"
+                        ></i
+                        >Grand Square, Birmingham
+                      </p>
+                      <div class="property-meta-data d-flex align-items-end justify-content-between">
+                        <div class="new-tag">
+                            <img src="img/icons/new.png" alt="">
+                        </div>
+                        <div class="bathroom">
+                            <img src="img/icons/bathtub.png" alt="">
+                            <span>2</span>
+                        </div>
+                        <div class="garage">
+                            <img src="img/icons/garage.png" alt="">
+                            <span>2</span>
+                        </div>
+                        <div class="space">
+                            <img src="img/icons/space.png" alt="">
+                            <span>120 sq ft</span>
+                        </div>
+                    </div>  
+                    </div>
+                  </div>
+                </div>
+      
+                <!-- Single Featured Property -->
+                <div class="col-12 col-md-6 col-xl-4">
+                  <div
+                    class="single-featured-property mb-50 wow fadeInUp"
+                    data-wow-delay="200ms"
+                  >
+                    <!-- Property Thumbnail -->
+                    <div class="property-thumb">
+                      <img src="img/bg-img/feature2.jpg" alt="" />
+      
+                      <div class="list-price">
+                        <p>Available</p>
+                      </div>
+                    </div>
+                    <!-- Property Content -->
+                    <div class="property-content">
+                      <h5>Town House</h5>
+                      <p class="location">
+                        <i
+                          class="bi bi-geo-alt"
+                          style="color: #f28526; font-size: medium"
+                        ></i
+                        >Yardley, Birmingham
+                      </p>
+                      <div class="property-meta-data d-flex align-items-end justify-content-between">
+                        <div class="new-tag">
+                            <img src="img/icons/new.png" alt="">
+                        </div>
+                        <div class="bathroom">
+                            <img src="img/icons/bathtub.png" alt="">
+                            <span>2</span>
+                        </div>
+                        <div class="garage">
+                            <img src="img/icons/garage.png" alt="">
+                            <span>2</span>
+                        </div>
+                        <div class="space">
+                            <img src="img/icons/space.png" alt="">
+                            <span>120 sq ft</span>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+      
+                <!-- Single Featured Property -->
+                <div class="col-12 col-md-6 col-xl-4">
+                  <div
+                    class="single-featured-property mb-50 wow fadeInUp"
+                    data-wow-delay="300ms"
+                  >
+                    <!-- Property Thumbnail -->
+                    <div class="property-thumb">
+                      <img src="img/bg-img/feature3.jpg" alt="" />
+      
+                      <div class="list-price">
+                        <p>Available</p>
+                      </div>
+                    </div>
+                    <!-- Property Content -->
+                    <div class="property-content">
+                      <h5>Accommodations</h5>
+                      <p class="location">
+                        <i
+                          class="bi bi-geo-alt"
+                          style="color: #f28526; font-size: medium"
+                        ></i
+                        >Edgbaston, Birmingham
+                      </p>
+                      <div class="property-meta-data d-flex align-items-end justify-content-between">
+                        <div class="new-tag">
+                            <img src="img/icons/new.png" alt="">
+                        </div>
+                        <div class="bathroom">
+                            <img src="img/icons/bathtub.png" alt="">
+                            <span>2</span>
+                        </div>
+                        <div class="garage">
+                            <img src="img/icons/garage.png" alt="">
+                            <span>2</span>
+                        </div>
+                        <div class="space">
+                            <img src="img/icons/space.png" alt="">
+                            <span>120 sq ft</span>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+      
+                <!-- Single Featured Property -->
+                <div class="col-12 col-md-6 col-xl-4">
+                  <div
+                    class="single-featured-property mb-50 wow fadeInUp"
+                    data-wow-delay="400ms"
+                  >
+                    <!-- Property Thumbnail -->
+                    <div class="property-thumb">
+                      <img src="img/bg-img/feature4.jpg" alt="" />
+      
+                      <div class="list-price">
+                        <p>Available</p>
+                      </div>
+                    </div>
+                    <!-- Property Content -->
+                    <div class="property-content">
+                      <h5>Ensuites</h5>
+                      <p class="location">
+                        <i
+                          class="bi bi-geo-alt"
+                          style="color: #f28526; font-size: medium"
+                        ></i
+                        >Acocks Green, Birmingham
+                      </p>
+                      <div class="property-meta-data d-flex align-items-end justify-content-between">
+                        <div class="new-tag">
+                            <img src="img/icons/new.png" alt="">
+                        </div>
+                        <div class="bathroom">
+                            <img src="img/icons/bathtub.png" alt="">
+                            <span>2</span>
+                        </div>
+                        <div class="garage">
+                            <img src="img/icons/garage.png" alt="">
+                            <span>2</span>
+                        </div>
+                        <div class="space">
+                            <img src="img/icons/space.png" alt="">
+                            <span>120 sq ft</span>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+      
+                <!-- Single Featured Property -->
+                <div class="col-12 col-md-6 col-xl-4">
+                  <div
+                    class="single-featured-property mb-50 wow fadeInUp"
+                    data-wow-delay="500ms"
+                  >
+                    <!-- Property Thumbnail -->
+                    <div class="property-thumb">
+                      <img src="img/bg-img/feature5.jpg" alt="" />
+      
+                      <div class="list-price">
+                        <p>Available</p>
+                      </div>
+                    </div>
+                    <!-- Property Content -->
+                    <div class="property-content">
+                      <h5>Shared Accommodation</h5>
+                      <p class="location">
+                        <i
+                          class="bi bi-geo-alt"
+                          style="color: #f28526; font-size: medium"
+                        ></i
+                        >Handsworth, Birmingham
+                      </p>
+                      <div class="property-meta-data d-flex align-items-end justify-content-between">
+                        <div class="new-tag">
+                            <img src="img/icons/new.png" alt="">
+                        </div>
+                        <div class="bathroom">
+                            <img src="img/icons/bathtub.png" alt="">
+                            <span>2</span>
+                        </div>
+                        <div class="garage">
+                            <img src="img/icons/garage.png" alt="">
+                            <span>2</span>
+                        </div>
+                        <div class="space">
+                            <img src="img/icons/space.png" alt="">
+                            <span>120 sq ft</span>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+      
+                <!-- Single Featured Property -->
+                <div class="col-12 col-md-6 col-xl-4">
+                  <div
+                    class="single-featured-property mb-50 wow fadeInUp"
+                    data-wow-delay="600ms"
+                  >
+                    <!-- Property Thumbnail -->
+                    <div class="property-thumb">
+                      <img src="img/bg-img/feature6.jpg" alt="" />
+      
+                      <div class="list-price">
+                        <p>Available</p>
+                      </div>
+                    </div>
+                    <!-- Property Content -->
+                    <div class="property-content">
+                      <h5>Detached Houses</h5>
+                      <p class="location">
+                        <i
+                          class="bi bi-geo-alt"
+                          style="color: #f28526; font-size: medium"
+                        ></i
+                        >GroveLane, Birmingham
+                      </p>
+                      <div class="property-meta-data d-flex align-items-end justify-content-between">
+                        <div class="new-tag">
+                            <img src="img/icons/new.png" alt="">
+                        </div>
+                        <div class="bathroom">
+                            <img src="img/icons/bathtub.png" alt="">
+                            <span>2</span>
+                        </div>
+                        <div class="garage">
+                            <img src="img/icons/garage.png" alt="">
+                            <span>2</span>
+                        </div>
+                        <div class="space">
+                            <img src="img/icons/space.png" alt="">
+                            <span>120 sq ft</span>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+        </div>
+    </section>
+    <!-- ##### Listing Content Wrapper Area End ##### -->
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer
+      class="footer-area bg-img gradient-background-overlay"
+      style="padding: 40px 0 0; background-image: url(img/bg-img/cta.jpg)"
+    >
+      <!-- Main Footer Area -->
+      <div class="main-footer-area">
+        <div class="container">
+          <div class="row d-flex justify-content-between">
+
+            <!-- Single Footer Widget -->
+            <div class="col-12 col-sm-6 col-xl-5">
+              <div class="footer-widget-area">
+                <!-- Widget Title -->
+                <div class="widget-title">
+                  <h6>Hours</h6>
+                </div>
+                <!-- Office Hours -->
+                <div class="weekly-office-hours">
+                  <ul>
+                    <li
+                      class="d-flex align-items-center justify-content-between"
+                    >
+                      <span>Monday - Friday</span> <span>09:00 AM - 15:00 PM</span>
+                    </li>
+                    <li
+                      class="d-flex align-items-center justify-content-between"
+                    >
+                      <span>Saturday</span> <span>Closed</span>
+                    </li>
+                    <li
+                      class="d-flex align-items-center justify-content-between"
+                    >
+                      <span>Sunday</span> <span>Closed</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Address -->
+            <div class="col-12 col-sm-6 col-xl-5">
+              <div class="footer-widget-area">
+                <!-- Widget Title -->
+                <div class="widget-title">
+                  <h6>Address</h6>
+                </div>
+                <!-- Nav -->
+                <div class="address">
+                  <h6>
+                    <i
+                      class="bi bi-telephone"
+                      style="color: #f28526; font-size: medium"
+                    ></i>
+                    0121 708 1810
+                  </h6>
+                  <h6>
+                    <i
+                      class="bi bi-envelope"
+                      style="color: #f28526; font-size: medium"
+                    ></i>
+                    info@carefuge.uk
+                  </h6>
+                  <h6>
+                    <i
+                      class="bi bi-geo-alt"
+                      style="color: #f28526; font-size: medium"
+                    ></i>
+                    Main Str. 74 Yardley rd
+B27 6LG
+ACOCKSGREEN
+                  </h6>
+                </div>
+                <div class="social-icons mt-3">
+                    <a href="www.facebook.com/carefuge" style="color: #F7811D; font-size: 24px; margin-right: 10px">
+                      <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/carefugeofficial/" style="color: #F7811D; font-size: 24px; margin-right: 10px">
+                      <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="#" style="color: #F7811D; font-size: 24px">
+                      <i class="bi bi-linkedin"></i>
+                    </a>
+                  </div>
+              </div>
+            </div>
+            <!-- Single Footer Widget -->
+            <div class="col-12 col-sm-6 col-xl-2">
+              <div class="footer-widget-area">
+                <!-- Widget Title -->
+                <div class="widget-title">
+                  <h6>Useful Links</h6>
+                </div>
+                <!-- Nav -->
+                <ul class="useful-links-nav d-block align-items-center">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about-us.html">About Us</a></li>
+                  <li><a href="listings.html">Find A Shelter</a></li>
+                  <li><a href="blog.html">LandLords</a></li>
+                  <li><a href="referals.html">Referals</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copywrite Text -->
+      <div
+        class="copywrite-text d-flex align-items-center justify-content-center"
+      >
+        <p>
+          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          Copyright &copy;
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          All rights reserved 
+          <i class="fa fa-heart-o" aria-hidden="true"></i> by
+          <a href="https://mlthematics.com" target="_blank">Mlthematics</a>
+          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        </p>
+      </div>
+    </footer>
+    <!-- ##### Footer Area End ##### -->
+
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <script src="js/classy-nav.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
+</body>
+
+</html>

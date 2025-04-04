@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title  -->
+    <title>Carefuge | Blog</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" href="img/core-img/logo.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="south-load"></div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+      <!-- Main Header Area -->
+      <div class="main-header-area" id="stickyHeader">
+        <div class="classy-nav-container breakpoint-off">
+          <!-- Classy Menu -->
+          <nav class="classy-navbar justify-content-between" id="southNav">
+            <!-- Logo -->
+            <a class="nav-brand" href="index.html"
+              ><img src="img/core-img/logo.png" alt=""
+            /></a>
+
+            <!-- Navbar Toggler -->
+            <div class="classy-navbar-toggler">
+              <span class="navbarToggler"
+                ><span></span><span></span><span></span
+              ></span>
+            </div>
+
+            <!-- Menu -->
+            <div class="classy-menu">
+              <!-- close btn -->
+              <div class="classycloseIcon">
+                <div class="cross-wrap">
+                  <span class="top"></span><span class="bottom"></span>
+                </div>
+              </div>
+
+              <!-- Nav Start -->
+              <div class="classynav">
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about-us.html">About Us</a></li>
+                  <li><a href="listings.html">Find A Shelter</a></li>
+                  <li><a href="blog.html">LandLords</a></li>
+                  <li><a href="referals.html">Referrals</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+                <!-- Search Form -->
+                <div class="south-search-form">
+                  <form action="#" method="post">
+                    <input
+                      type="search"
+                      name="search"
+                      id="search"
+                      placeholder="Search Anything ..."
+                    />
+                    <button type="submit">
+                      <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                  </form>
+                </div>
+
+                <!-- Search Button -->
+                <a href="#" class="searchbtn"
+                  ><i class="fa" aria-hidden="true"></i
+                ></a>
+              </div>
+              <!-- Nav End -->
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Breadcumb Area Start ##### -->
+    <section
+      class="breadcumb-area bg-img"
+      style="background-image: url(img/bg-img/banner4.jpg)"
+    >
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-12">
+            <div class="breadcumb-content">
+              <h3 class="breadcumb-title">Referals</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ##### Breadcumb Area End ##### -->
+
+    <!-- ##### Blog Area Start ##### -->
+    <section class="referral-form-area" style="padding-top: 50px">
+      <div class="row" style="height: 120px;">
+        <div class="col-12">
+          <div class="section-heading wow fadeInUp">
+            <h2>Referral Details</h2>
+            <p>
+              Discover our top real estate listings, handpicked for their
+              exceptional value, location, and features.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container d-flex justify-content-center"
+        style="
+          padding-top: 50px;
+          margin-bottom: 50px;
+          padding-bottom: 50px;
+          background-color: #e3e6ea;
+        "
+      >
+
+
+        <div class="col-12 col-lg-8">
+          <div class="contact-form">
+            <form id="appointment-form" class="appointment-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" class="form-control2" name="first_name" id="first_name" placeholder="First Name" required />
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="text" class="form-control2" name="last_name" id="last_name" placeholder="Last Name" required />
+                </div>
+              </div>
+            
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <select class="form-control2" name="gender" id="gender" required>
+                    <option value="">Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="date" class="form-control2" name="dob" id="dob" required />
+                </div>
+              </div>
+            
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="number" class="form-control2" name="age" id="age" placeholder="Current Age" required />
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="text" class="form-control2" name="insurance_number" id="insurance_number" placeholder="National Insurance Number" required />
+                </div>
+              </div>
+            
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" class="form-control2" name="nationality" id="nationality" placeholder="Nationality" required />
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="text" class="form-control2" name="ethnicity" id="ethnicity" placeholder="Ethnicity" required />
+                </div>
+              </div>
+            
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" class="form-control2" name="religion" id="religion" placeholder="Religion" required />
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="text" class="form-control2" name="address" id="address" placeholder="Current Address including postcode" required />
+                </div>
+              </div>
+            
+              <h5 style="color: #f7811d;">Applicant's Contact Details:</h5>
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="tel" class="form-control2" name="primary_phone" id="primary_phone" placeholder="Primary Phone Number" required />
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="tel" class="form-control2" name="secondary_phone" id="secondary_phone" placeholder="Secondary Phone Number" />
+                </div>
+              </div>
+            
+              <div class="form-group">
+                <input type="email" class="form-control2" name="email" id="email" placeholder="Email" required />
+              </div>
+            
+              <h5 style="color: #f7811d;">Applicant's Personal Circumstances:</h5>
+              <div class="form-group">
+                <label>Do you smoke?</label><br />
+                <input type="radio" name="smoke" value="yes" required /> Yes
+                <input type="radio" name="smoke" value="no" required /> No
+              </div>
+              <div class="form-group">
+                <label>Do you drink alcohol?</label><br />
+                <input type="radio" name="alcohol" value="yes" required /> Yes
+                <input type="radio" name="alcohol" value="no" required /> No
+              </div>
+              <div class="form-group">
+                <label>Do you take drugs?</label><br />
+                <input type="radio" name="drugs" value="yes" required /> Yes
+                <input type="radio" name="drugs" value="no" required /> No
+              </div>
+              <div class="form-group">
+                <label>Do you have a criminal record?</label><br />
+                <input type="radio" name="criminal_record" value="yes" required /> Yes
+                <input type="radio" name="criminal_record" value="no" required /> No
+              </div>
+            
+              <div class="text-center">
+                <button type="submit" class="btn south-btn">Submit Referral</button>
+                <p id="responseMessage" class="mt-3" style="text-align: center; font-weight: bold;"></p>
+              </div>
+            </form>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ##### Blog Area End ##### -->
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer
+      class="footer-area bg-img gradient-background-overlay"
+      style="padding: 40px 0 0; background-image: url(img/bg-img/cta.jpg)"
+    >
+      <!-- Main Footer Area -->
+      <div class="main-footer-area">
+        <div class="container">
+          <div class="row d-flex justify-content-between">
+            <!-- Single Footer Widget -->
+            <div class="col-12 col-sm-6 col-xl-5">
+              <div class="footer-widget-area">
+                <!-- Widget Title -->
+                <div class="widget-title">
+                  <h6>Hours</h6>
+                </div>
+                <!-- Office Hours -->
+                <div class="weekly-office-hours">
+                  <ul>
+                    <li
+                      class="d-flex align-items-center justify-content-between"
+                    >
+                      <span>Monday - Friday</span>
+                      <span>09:00 AM - 15:00 PM</span>
+                    </li>
+                    <li
+                      class="d-flex align-items-center justify-content-between"
+                    >
+                      <span>Saturday</span> <span>Closed</span>
+                    </li>
+                    <li
+                      class="d-flex align-items-center justify-content-between"
+                    >
+                      <span>Sunday</span> <span>Closed</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Address -->
+            <div class="col-12 col-sm-6 col-xl-5">
+              <div class="footer-widget-area">
+                <!-- Widget Title -->
+                <div class="widget-title">
+                  <h6>Address</h6>
+                </div>
+                <!-- Nav -->
+                <div class="address">
+                  <h6>
+                    <i
+                      class="bi bi-telephone"
+                      style="color: #f28526; font-size: medium"
+                    ></i>
+                    0121 708 1810
+                  </h6>
+                  <h6>
+                    <i
+                      class="bi bi-envelope"
+                      style="color: #f28526; font-size: medium"
+                    ></i>
+                    info@carefuge.uk
+                  </h6>
+                  <h6>
+                    <i
+                      class="bi bi-geo-alt"
+                      style="color: #f28526; font-size: medium"
+                    ></i>
+                    Main Str. 74 Yardley rd B27 6LG ACOCKSGREEN
+                  </h6>
+                </div>
+                <div class="social-icons mt-3">
+                  <a
+                    href="www.facebook.com/carefuge"
+                    style="color: #f7811d; font-size: 24px; margin-right: 10px"
+                  >
+                    <i class="bi bi-facebook"></i>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/carefugeofficial/"
+                    style="color: #f7811d; font-size: 24px; margin-right: 10px"
+                  >
+                    <i class="bi bi-instagram"></i>
+                  </a>
+                  <a href="#" style="color: #f7811d; font-size: 24px">
+                    <i class="bi bi-linkedin"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- Single Footer Widget -->
+            <div class="col-12 col-sm-6 col-xl-2">
+              <div class="footer-widget-area">
+                <!-- Widget Title -->
+                <div class="widget-title">
+                  <h6>Useful Links</h6>
+                </div>
+                <!-- Nav -->
+                <ul class="useful-links-nav d-block align-items-center">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about-us.html">About Us</a></li>
+                  <li><a href="listings.html">Find A Shelter</a></li>
+                  <li><a href="blog.html">LandLords</a></li>
+                  <li><a href="referals.html">Referals</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copywrite Text -->
+      <div
+        class="copywrite-text d-flex align-items-center justify-content-center"
+      >
+        <p>
+          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          Copyright &copy;
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          All rights reserved
+          <i class="fa fa-heart-o" aria-hidden="true"></i> by
+          <a href="https://mlthematics.com" target="_blank">Mlthematics</a>
+          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        </p>
+      </div>
+    </footer>
+    <!-- ##### Footer Area End ##### -->
+
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <script src="js/classy-nav.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+    <script src="js/contact.js"></script>
+    <script>
+      document.getElementById("appointment-form").addEventListener("submit", async function(event) {
+          event.preventDefault(); // Prevent default form submission
+      
+          const form = event.target;
+          const formData = new FormData(form);
+      
+          try {
+              const response = await fetch("/api/referral", {
+                  method: "POST",
+                  body: formData
+              });
+      
+              const result = await response.json();
+              const responseMessage = document.getElementById("responseMessage");
+      
+              if (response.ok) {
+                  responseMessage.style.color = "green";
+                  responseMessage.textContent = "Your message has been sent successfully!";
+                  form.reset(); // Clear form fields
+              } else {
+                  responseMessage.style.color = "red";
+                  responseMessage.textContent = result.error || "Something went wrong. Please try again.";
+              }
+          } catch (error) {
+              document.getElementById("responseMessage").style.color = "red";
+              document.getElementById("responseMessage").textContent = "Network error. Please try again.";
+          }
+      });
+      </script>
+  </body>
+</html>
