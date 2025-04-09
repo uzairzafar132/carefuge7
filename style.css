@@ -1436,6 +1436,8 @@ img {
     @media only screen and (max-width: 767px) {
       .contact-realtor-wrapper .realtor--contact-form {
         padding: 0 30px 40px; } }
+        .form-group {
+          width: inherit; }
     .contact-realtor-wrapper .realtor--contact-form .form-group {
       margin-bottom: 15px; }
     .contact-realtor-wrapper .realtor--contact-form .form-control {
