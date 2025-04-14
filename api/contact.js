@@ -43,7 +43,7 @@ module.exports = (req, res) => {
             // Send the email
             const mailOptions = {
                 from: email,
-                to: 'zuzair00@gmail.com', // Recipient email
+                to: 'info@mlthematics.com', // Recipient email
                 subject: 'New Appointment Request',
                 html: emailContent
             };
